@@ -55,6 +55,6 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "绗� <span class=\"digit\">" + days + "</span> 澶� <span class=\"digit\">" + hours + "</span> 鏃� <span class=\"digit\">" + minutes + "</span> 鍒� <span class=\"digit\">" + seconds + "</span> 绉�"; 
+	var result = "第 <span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 时 <span class=\"digit\">" + minutes + "</span> 分 <span class=\"digit\">" + seconds + "</span> 秒"; 
 	$("#clock").html(result);
 }
